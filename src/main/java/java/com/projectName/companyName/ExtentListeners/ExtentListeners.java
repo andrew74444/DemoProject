@@ -28,13 +28,13 @@ public class ExtentListeners implements ITestListener {
 	public void onTestStart(ITestResult result) {
 
 		String testName = result.getTestClass().getName();
-		if (testName.contains("com.cpcommunity.emailtestcases")) {
+		if (testName.contains("com.projectName.companyName")) {
 			testName = testName.substring(31);
 		}
-		if (testName.contains("com.cpcommunity.testcases")) {
+		if (testName.contains("com.projectName.companyName")) {
 			testName = testName.substring(26);
 		}
-		if (testName.contains("com.BizLigo.PamTen.testcases")) {
+		if (testName.contains("com.projectName.companyName")) {
 			testName = testName.substring(29);
 			
 		}
