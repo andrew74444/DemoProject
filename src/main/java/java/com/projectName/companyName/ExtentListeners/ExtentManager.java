@@ -39,7 +39,7 @@ public class ExtentManager {
 
 		extent = new ExtentReports();
 		extent.attachReporter(htmlReporter);
-		extent.setSystemInfo("Automation Tester", "QA Team");
+		extent.setSystemInfo("Automation Tester", "sasi");
 		extent.setSystemInfo("Organization", "CompanyName");
 		extent.setSystemInfo("Build no", "SPRINT 12 V1.0");
 		extent.setSystemInfo("URL", "https://google.com");
