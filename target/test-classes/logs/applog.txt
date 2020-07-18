@@ -1,0 +1,4 @@
+INFO    2020-07-18 07:47:18,506 [main] com.projectName.companyName.testcases.BaseTest  - Config properties file loaded
+INFO    2020-07-18 07:47:20,227 [PoolService-0] com.projectName.companyName.testcases.BaseTest  - Inside Login Test
+INFO    2020-07-18 07:47:24,225 [PoolService-0] com.projectName.companyName.testcases.BaseTest  - Driver Initialized !!!
+INFO    2020-07-18 07:47:26,203 [PoolService-0] com.projectName.companyName.testcases.BaseTest  - Test Execution Completed !!!

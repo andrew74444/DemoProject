@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="7421" started-at="2020-07-18T02:22:09Z" finished-at="2020-07-18T02:22:16Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="7421" started-at="2020-07-18T02:22:09Z" finished-at="2020-07-18T02:22:16Z">
+      <class name="com.projectName.companyName.testcases.ActiveMembersLoginTest">
+        <test-method status="PASS" signature="setUpFramework()[pri:0, instance:com.projectName.companyName.testcases.ActiveMembersLoginTest@2fd66ad3]" name="setUpFramework" is-config="true" duration-ms="79" started-at="2020-07-18T07:52:09Z" finished-at="2020-07-18T07:52:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpFramework -->
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.projectName.companyName.testcases.ActiveMembersLoginTest@2fd66ad3]" name="loginTest" duration-ms="5352" started-at="2020-07-18T07:52:10Z" data-provider="masterDP" finished-at="2020-07-18T07:52:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=chrome, password=Admin@123, email=andrew74444@gmail.com, Runmode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.projectName.companyName.testcases.ActiveMembersLoginTest@2fd66ad3]" name="tearDown" is-config="true" duration-ms="712" started-at="2020-07-18T07:52:16Z" finished-at="2020-07-18T07:52:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="mail()[pri:0, instance:com.projectName.companyName.testcases.ActiveMembersLoginTest@2fd66ad3]" name="mail" is-config="true" duration-ms="7904" started-at="2020-07-18T07:52:17Z" finished-at="2020-07-18T07:52:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mail -->
+      </class> <!-- com.projectName.companyName.testcases.ActiveMembersLoginTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
