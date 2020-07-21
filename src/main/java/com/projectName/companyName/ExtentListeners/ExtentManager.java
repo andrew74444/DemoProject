@@ -40,9 +40,9 @@ public class ExtentManager {
 		extent = new ExtentReports();
 		extent.attachReporter(htmlReporter);
 		extent.setSystemInfo("Automation Tester", "QA Team");
-		extent.setSystemInfo("Organization", "PamTen");
+		extent.setSystemInfo("Organization", "xyz");
 		extent.setSystemInfo("Build no", "SPRINT 12 V1.0");
-		extent.setSystemInfo("URL", "https://cpcommunityqa.azurewebsites.net");
+		extent.setSystemInfo("URL", "https://google.com");
 
 		return extent;
 

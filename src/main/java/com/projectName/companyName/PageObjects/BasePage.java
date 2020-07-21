@@ -1,8 +1,9 @@
 package com.projectName.companyName.PageObjects;
 
 import java.awt.Robot;
-import com.projectName.companyName.ExtentListeners.*;
-import com.projectName.companyName.utilities.*;
+
+
+
 import java.io.File;
 import java.io.IOException;
 import java.text.DateFormat;
@@ -36,8 +37,12 @@ import org.testng.Assert;
 
 import com.assertthat.selenium_shutterbug.core.Shutterbug;
 import com.aventstack.extentreports.MediaEntityBuilder;
-
-
+import com.projectName.companyName.ExtentListeners.ExtentListeners;
+import com.projectName.companyName.ExtentListeners.ExtentManager;
+import com.projectName.companyName.utilities.DriverCapabilities;
+import com.projectName.companyName.utilities.DriverManager;
+import com.projectName.companyName.utilities.JavaScript;
+import com.projectName.companyName.utilities.RobotClass;
 
 import ru.yandex.qatools.ashot.AShot;
 import ru.yandex.qatools.ashot.Screenshot;
